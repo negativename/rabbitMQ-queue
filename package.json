@@ -1,0 +1,26 @@
+{
+  "name": "rabbitmq-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/negativename/rabbitMQ-queue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/negativename/rabbitMQ-queue/issues"
+  },
+  "homepage": "https://github.com/negativename/rabbitMQ-queue#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "winston": "^3.8.2"
+  }
+}
